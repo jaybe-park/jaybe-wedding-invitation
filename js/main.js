@@ -261,7 +261,7 @@
 		var now = new Date().getTime();
 
 		// Find the distance between now an the count down date
-		var distance = now + countDownDate;
+		var distance = now - countDownDate;
 
 		// Time calculations for days, hours, minutes and seconds
 		var days = Math.floor(distance / (1000 * 60 * 60 * 24));
